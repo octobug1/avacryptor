@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #0f172a;
+    -fx-font-family: "Arial";
+}
+
+.title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #94a3b8;
+}
+
+.section-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #94a3b8;
+}
+
+.text-area,
+.password-field {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #f8fafc;
+    -fx-prompt-text-fill: #64748b;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.text-area .content {
+    -fx-background-color: #1e293b;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 22px;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3b82f6;
+}
+
+.secondary-button {
+    -fx-background-color: #334155;
+    -fx-text-fill: #f8fafc;
+    -fx-background-radius: 6px;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #475569;
+}
+
+.text-field {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #f8fafc;
+    -fx-prompt-text-fill: #64748b;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
