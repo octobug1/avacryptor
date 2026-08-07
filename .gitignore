@@ -20,6 +20,7 @@ ehthumbs.db
 .vscode/
 .idea/
 *.iml
+.venv
 
 # Eclipse
 .project
