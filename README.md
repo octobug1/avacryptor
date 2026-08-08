@@ -60,3 +60,8 @@ GUI based - Self Explanatory
   <img src="static/picture1.png" alt="AvaCryptor GUI" width="45%">
   <img src="static/picture2.png" alt="AvaCryptor GUI" width="45%">
 </p>
+
+# Next Steps 
+
+- create releases with exe and DMG
+- give choice to user where to place modified file instead of same directory
