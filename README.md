@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">Web Application Firewall Bypass For XSS Vulnerability Testing</h4>
+<h4 align="center">Secure AES Encryption & Decryption for Text and Files</h4>
 
 <p align="center">
   <a href="#Features">Features</a> •
@@ -15,37 +15,44 @@
 
 ---
 
-`wafbypass-xss` consists of two Python scripts, gkg.py and kg.py, designed to generate and test Cross-Site Scripting (XSS) payloads for web security testing.
+**AvaCryptor** is a JavaFX-based desktop application designed to securely encrypt and decrypt text and files using password-based AES encryption.
 
-gkg.py generates a large set of mutated XSS payloads from a base input file, leveraging techniques like HTML/URL encoding, string reversal, and regex-based generation.
+It provides a simple graphical interface for generating passwords, encrypting text, and protecting files such as PDFs and TXT documents. 
 
-kg.py automates the testing of these payloads against a target URL using a headless Chrome browser to detect successful XSS executions.
-
-Together, these scripts provide a robust toolkit for security researchers to identify XSS vulnerabilities in web applications.
 
 ---
 
 # Features
 
-- Payload Generation, Creates diverse XSS payloads through mutations like encoding, case changes, and noise insertion, with support for regex-based patterns.
-- Automated Testing: Uses Selenium with a headless Chrome browser to test payloads concurrently, logging successful executions to a file.
-- Scalability: Supports chunked output for large payload sets and multi-threaded testing to handle high volumes efficiently.
+- Text Encryption: Encrypts and decrypts text using AES-GCM encryption with password-derived keys.
+- File Encryption: Protects files such as PDFs, TXT documents, and other file types while preserving their original contents.
+- Password Generation: Generates secure random passwords for use with encryption and provides a quick copy-to-clipboard option.
+- Secure Key Derivation: Uses PBKDF2 with SHA-256 and a unique salt to derive encryption keys from passwords.
+- Safe File Handling: Creates new encrypted and decrypted files with automatic numbering to prevent existing files from being overwritten.
+- User-Friendly Interface: Provides a clean JavaFX graphical interface for managing text and file encryption from one application.
+
+# Requirements
+
+- Java 21
+- Maven
+- JavaFX 21.0.2 (managed automatically by Maven)
+
 
 # Install
 
-```sh
-pip install -r requirements.txt
-```
+1. Install Java 21
+2. Install Maven
+
 
 # Post-Installation
 
-```sh
-python3 gkg.py
-```
+3. Clone/download AvaCryptor
+4. Open a terminal in the project directory
+5. Run:
+
+mvn clean javafx:run
 
 # Usage
 
-```sh
-python3 kg.py
-```
-Comment out Headless browser variable to see payloads in action. (Many tabs will open in your chrome browser GUI)
+GUI based - Self Explanatory 
+
