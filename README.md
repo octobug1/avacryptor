@@ -56,3 +56,7 @@ mvn clean javafx:run
 
 GUI based - Self Explanatory 
 
+<p align="center">
+  <img src="static/picture1.png" alt="AvaCryptor GUI" width="45%">
+  <img src="static/picture2.png" alt="AvaCryptor GUI" width="45%">
+</p>
