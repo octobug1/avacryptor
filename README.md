@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="" alt="wafbypass" width="250px">
+  <img src="src/main/resources/images/ava-logo-fixed.png" alt="avacryptor" width="250px">
   <br>
 </h1>
 
